@@ -1,0 +1,65 @@
+
+This is how we declare variable in js
+======================================
+
+-> Declare the variable first:
+var First_Name;
+
+-> then Assign the variable values:
+First_Name = "sam";
+
+
+var is common to declare variable for type int and string
+
+var age;
+
+age = 23;
+
+
+--------------------
+
+Playing with Strings
+======================
+
+-> finding the length of string:
+
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+
+-> Escape Character in strings:-
+
+var x = "We are the so-called \"Vikings\" from the north.";
+
+Code	Result
+---------------
+\b	    Backspace
+\f	    Form Feed
+\n	    New Line
+\r	    Carriage Return
+\t	    Horizontal Tabulator
+\v  	Vertical Tabulator
+
+
+------------------------------------
+
+Comparing 2 strings
+====================
+
+we have type options:
+
+x == y : this will only check if strings are equal
+
+x === y : this will check type of string and the value of string
+
+example:-
+
+x = new string("sam");
+y = string("sam");
+
+result = (x == y)
+
+result will be true even though x is other type (new string) and y is different (only string)
+
+result = (x ===y)
+
+result will be false as x and y are both of different types even though values are same
